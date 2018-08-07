@@ -1,0 +1,85 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  background-image: url("bitcoin.jpg");
+  background-repeat: repeat;
+}
+/*------Header--------------------------------------*/
+
+h1 {
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  padding: 10px;
+  color: #e67300;
+  text-align: center;
+}
+/*-----data input-------------------------*/
+/*.inputData label {
+  font-family: 'Courier New', Courier, monospace;
+  color: #e67300;
+}
+.inputData input::placeholder {
+  background-color: #e67300;
+  color: black;   
+}  */
+/*-----Buttons---------------------------*/
+.btn-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+}
+.buttons button {
+  /* background-color: #00ace6;  */
+   font-family: 'Dancing Script', cursive;
+   vertical-align: middle;
+   width: 200px;
+   height: 50px;
+   color: black;
+   text-align: center;
+   font-family: inherit;
+   font-size: 20px;
+   border: solid black 1px;
+   border-radius: 50%;
+   padding: 5px 5px 5px 5px;
+   cursor: pointer;
+}
+#btnSortName {
+  background-color: #3385ff;
+  -moz-box-shadow: 0 0 30px rgb(175, 221, 10);
+  -webkit-box-shadow: 0 0 30px rgb(175, 221, 10);
+  box-shadow: 0 0 30px rgb(175, 221, 10);
+}
+#btnSortPrice {
+  background-color:  #005ce6;
+  -moz-box-shadow: 0 0 30px rgb(175, 221, 10);
+  -webkit-box-shadow: 0 0 30px rgb(175, 221, 10);
+  box-shadow: 0 0 30px rgb(175, 221, 10);
+}
+#btnSortRank {
+  background-color: #003d99;
+ -moz-box-shadow: 0 0 30px rgb(175, 221, 10);
+  -webkit-box-shadow: 0 0 30px rgb(175, 221, 10);
+  box-shadow: 0 0 30px rgb(175, 221, 10);
+}
+/*--------tickers--------------*/
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-gap: 10px;
+}
+li {
+  background-color: #e67300;
+  font-family: 'Courier New', Courier, monospace;
+  -moz-box-shadow: 0 0 40px rgb(14, 42, 109);
+  -webkit-box-shadow: 0 0 40px rgb(14, 42, 109);
+  box-shadow: 0 0 40px rgb(14, 42, 109);
+  border-radius: 20%;
+  box-sizing: border-box;
+  width: 80%;
+  padding: 20px;
+}
+
